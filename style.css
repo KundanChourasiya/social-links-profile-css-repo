@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.box {
+  width: 356px;
+  height: 567px;
+  background-color: hsl(0, 0%, 12%);
+  position: fixed;
+  margin: auto;
+  inset: 0;
+  border-radius: 10px;
+}
+
+.avatar {
+  padding: 40px 0px;
+  position: absolute;
+  left: 50%;
+  top: 16%;
+  transform: translate(-50%, -50%);
+}
+.avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.contain {
+  margin-top: 43%;
+}
+
+.contain .name {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.contain .place {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: -14px;
+  color: hsl(75, 94%, 57%);
+}
+
+.contain .dec {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.btn {
+  margin-top: -20px;
+  display: inline-grid;
+}
+
+.btn button {
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 14px 85px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 6px 0px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.btn button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+  
+}
